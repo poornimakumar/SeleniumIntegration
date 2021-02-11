@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.assessment.TestClass.TestLogin"/>
+      <class name="com.qa.assessment.TestClass.CrossBrowser"/>
+      <class name="com.qa.assessment.TestClass.BaseTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="3"  parallel="tests">
+  <test name="chromeTest">
+  <parameter name ="browser" value="Chrome" />
+
+ 
+    <classes>
+      <class name="com.qa.assessment.TestClass.TestLogin">
+      </class>
+       </classes>
+     
+  </test>
+    <test name="FirefoxTest">
+  <parameter name ="browser" value="Firefox" />
+
+ 
+    <classes>
+      <class name="com.qa.assessment.TestClass.TestLogin">
+      </class>
+       </classes>
+     
+  </test>
+     <!--   <class name="com.qa.assessment.TestClass.Base"/> -->
+   <!--     <class name="com.qa.assessment.TestClass.BaseTest"/>  --> 
+   
+ 
+ <!-- Suite --> 
